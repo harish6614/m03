@@ -77,4 +77,29 @@ function sum() {
   return output;
 }
 
+/**
+ * Calculates the square of a number 
+ *
+ * @param {Number} num - the number to be raised to a power of 2
+ * @return {Number} square - result of square of argument provided
+ */
+function square(num) {
+  if (typeof num !== 'number') {
+    throw Error("The given argument is not a number")
+  }
+  return Math.pow(num,2);
+}
 
+/**
+* Calculates the result of adding a series of numbers.
+*
+* @param {...number} var_args - an unlimited set of numbers to add
+* @return {Number} sum - result of adding each argument provided
+*/
+function add() {
+  var output = 0;
+  for (var i = 0; i < arguments.length; i++) {
+    output += arguments[i];
+  }
+  return output;
+}

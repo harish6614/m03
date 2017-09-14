@@ -101,7 +101,7 @@ QUnit.test("pow(2, -2) won't return 1/4; see the implementation (negatives alway
 // (2) Complete your application code (M03.js) so all these tests pass also.
 // ******************************************************************************
 
-/*
+
 QUnit.test('Testing the new add function with four sets of inputs', function (assert) {
     assert.equal(add(2, 2), 4, "works with two positive integers");
     assert.equal(add(-3, -3, -2), -8, "works with three negative integers");
@@ -115,9 +115,3 @@ QUnit.test('Testing the new square function with four sets of inputs', function 
     assert.equal(square(0), 0, "works with zero number");
     assert.throws(function () { square(null); }, new Error('The given argument is not a number'), "correctly raises an error if one tries to square a null");
 });
-*/
-
-
-
-
-
